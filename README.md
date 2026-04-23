@@ -1,73 +1,54 @@
-# React + TypeScript + Vite
+# Mbande Investment Ltd - Electrical & IT Contractors PWA
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+[![React](https://img.shields.io/badge/React-18.2.0-61DAFB?logo=react)](https://reactjs.org/)
+[![TypeScript](https://img.shields.io/badge/TypeScript-5.2.2-3178C6?logo=typescript)](https://www.typescriptlang.org/)
+[![Tailwind CSS](https://img.shields.io/badge/Tailwind-3.3.0-06B6D4?logo=tailwindcss)](https://tailwindcss.com/)
+[![PWA](https://img.shields.io/badge/PWA-Enabled-5A0FC8?logo=pwa)](https://web.dev/progressive-web-apps/)
+[![Vite](https://img.shields.io/badge/Vite-5.0.8-646CFF?logo=vite)](https://vitejs.dev/)
+[![License](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
 
-Currently, two official plugins are available:
+![Mbande Investment Banner](https://via.placeholder.com/1200x400/1E40AF/FFFFFF?text=Mbande+Investment+Ltd)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## 📋 Overview
 
-## React Compiler
+Mbande Investment Ltd is a premier electrical and general contracting company based in Webuye, Kenya. This Progressive Web App (PWA) showcases the company's services, past projects, and provides a quote request system for potential clients.
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+**Live Demo:** [https://mbande-investment.vercel.app](https://mbande-investment.vercel.app)
 
-## Expanding the ESLint configuration
+### 🏢 Company Profile
+- **Location:** Webuye, Kenya
+- **Managing Director:** Peter Isiye
+- **Specialization:** Electrical Contractors, General Contractors, IT Services
+- **Key Client:** Kenya Power & Lighting Company (KPLC)
+- **Service Area:** Western Kenya & Nationwide
 
-If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
+## ✨ Features
 
-```js
-export default defineConfig([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
+### Core Features
+- ✅ **Progressive Web App (PWA)** - Installable on mobile and desktop devices
+- ✅ **Fully Responsive Design** - Works on all screen sizes (mobile, tablet, desktop)
+- ✅ **Scroll Animations** - Smooth animations when sections enter viewport
+- ✅ **Quote Request Form** - With CAPTCHA protection and email delivery
+- ✅ **Project Gallery** - Showcase of completed projects
+- ✅ **Contact Information** - Click-to-call phone numbers and email links
+- ✅ **Offline Support** - Works even without internet connection
 
-      // Remove tseslint.configs.recommended and replace with this
-      tseslint.configs.recommendedTypeChecked,
-      // Alternatively, use this for stricter rules
-      tseslint.configs.strictTypeChecked,
-      // Optionally, add this for stylistic rules
-      tseslint.configs.stylisticTypeChecked,
+### Technical Features
+- ⚡ **React 18** with TypeScript
+- 🎨 **Tailwind CSS** for styling
+- 🔄 **Vite** for fast builds and development
+- 📱 **PWA Ready** with service worker
+- 🛡️ **CAPTCHA Protection** on quote form
+- 📧 **Email Integration** via FormSubmit.co
+- 🗺️ **Interactive Maps** using OpenStreetMap
+- 🎯 **SEO Friendly** with meta tags
 
-      // Other configs...
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
-```
+## 🚀 Quick Start
 
-You can also install [eslint-plugin-react-x](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-x) and [eslint-plugin-react-dom](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-dom) for React-specific lint rules:
+### Prerequisites
+- Node.js (v18 or higher)
+- npm (v9 or higher)
 
-```js
-// eslint.config.js
-import reactX from 'eslint-plugin-react-x'
-import reactDom from 'eslint-plugin-react-dom'
+### Installation
 
-export default defineConfig([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
-      // Enable lint rules for React
-      reactX.configs['recommended-typescript'],
-      // Enable lint rules for React DOM
-      reactDom.configs.recommended,
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
-```
+```bash
