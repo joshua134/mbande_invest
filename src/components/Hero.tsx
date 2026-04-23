@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react';
-import { Bolt, Zap, Code2 } from 'lucide-react';
+import { Zap, Code2, Bolt } from 'lucide-react';
 
 const Hero: React.FC = () => {
   const [currentImageIndex, setCurrentImageIndex] = useState(0);

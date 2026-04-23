@@ -10,13 +10,13 @@ const Projects: React.FC = () => {
       title: 'KPLC Power Line Installation',
       category: 'Electrical',
       description: 'Installation of 33kV power lines serving over 5,000 households in Bungoma County',
-      completed: '2023'
+      completed: '2011 - 2016'
     },
     {
       title: 'Transformer Maintenance Project',
       category: 'Electrical',
       description: 'Maintenance and upgrade of 45 transformers across Webuye region',
-      completed: '2023'
+      completed: '2011 - 2016'
     },
     {
       title: 'School Firewood Supply',
@@ -28,19 +28,19 @@ const Projects: React.FC = () => {
       title: 'Bush Clearing Operations',
       category: 'General Contracting',
       description: 'Vegetation management for power line right-of-ways covering 200+ kilometers',
-      completed: '2024'
+      completed: '2011 - 2024'
     },
     {
       title: 'Meter Installation Program',
       category: 'Electrical',
       description: 'Installation of prepaid meters for residential and commercial properties',
-      completed: '2023'
+      completed: '2011 - 2016'
     },
     {
       title: 'IT Infrastructure Setup',
       category: 'IT Services',
       description: 'Network and systems setup for local businesses (New Division)',
-      completed: '2024'
+      completed: '2025 - Ongoing'
     }
   ];
 
