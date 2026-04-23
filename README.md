@@ -48,7 +48,3 @@ Mbande Investment Ltd is a premier electrical and general contracting company ba
 ### Prerequisites
 - Node.js (v18 or higher)
 - npm (v9 or higher)
-
-### Installation
-
-```bash
