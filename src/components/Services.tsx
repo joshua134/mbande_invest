@@ -1,5 +1,5 @@
 import React from 'react';
-import { Zap, Wrench, Code2, Network, Lightbulb, Shield } from 'lucide-react';
+import { Zap, Wrench, Code2, Lightbulb } from 'lucide-react';
 import { useScrollAnimation } from '../hooks/useScrollAnimation';
 
 const Services: React.FC = () => {
