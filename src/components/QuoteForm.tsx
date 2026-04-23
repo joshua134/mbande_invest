@@ -1,4 +1,4 @@
-import React, { useState, useRef, useEffect } from 'react';
+import React, { useState, useEffect } from 'react';
 import { Send, CheckCircle, RefreshCw, AlertCircle } from 'lucide-react';
 import { useScrollAnimation } from '../hooks/useScrollAnimation';
 import emailjs from 'emailjs-com';
@@ -101,33 +101,6 @@ const QuoteForm: React.FC = () => {
     }
 
     return true;
-  };
-
-  const sendEmail = async (formDataToSend: FormData) => {
-    // EmailJS configuration
-    // You need to create these on EmailJS website
-    const serviceId = 'YOUR_SERVICE_ID';     // Replace with your EmailJS service ID
-    const templateId = 'YOUR_TEMPLATE_ID';   // Replace with your EmailJS template ID
-    
-    const templateParams = {
-      to_name: 'Peter Isiye',
-      to_email: 'isiyejoshua@gmail.com',
-      from_name: formDataToSend.name,
-      from_email: formDataToSend.email,
-      phone: formDataToSend.phone,
-      service_category: formDataToSend.serviceCategory,
-      project_description: formDataToSend.description,
-      preferred_contact: formDataToSend.preferredContact,
-      reply_to: formDataToSend.email,
-    };
-
-    try {
-      await emailjs.send(serviceId, templateId, templateParams);
-      return true;
-    } catch (error) {
-      console.error('Email sending failed:', error);
-      return false;
-    }
   };
 
   // Alternative: Using FormSubmit.co (Free, no registration needed)

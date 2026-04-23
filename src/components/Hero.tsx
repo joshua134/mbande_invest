@@ -1,8 +1,7 @@
 import React, { useState, useEffect } from 'react';
-import { Bolt, Zap, Code2, Play, Pause } from 'lucide-react';
+import { Bolt, Zap, Code2 } from 'lucide-react';
 
 const Hero: React.FC = () => {
-  const [videoPlaying, setVideoPlaying] = useState(true);
   const [currentImageIndex, setCurrentImageIndex] = useState(0);
 
   const scrollToQuote = () => {
@@ -26,14 +25,6 @@ const Hero: React.FC = () => {
     }, 5000);
     return () => clearInterval(interval);
   }, [backgroundImages.length]);
-
-  const toggleVideo = () => {
-    setVideoPlaying(!videoPlaying);
-  };
-
-  // Option 1: Static background image (use this for simplicity)
-  // Just uncomment the line below and comment out the conditional rendering
-
   return (
     <>
       {/* OPTION 1: Background Image Slideshow (Recommended) */}
