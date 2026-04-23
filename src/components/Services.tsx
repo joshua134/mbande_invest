@@ -10,37 +10,25 @@ const Services: React.FC = () => {
       icon: Zap,
       title: 'Electrical Services',
       description: 'Complete electrical installations, wiring, repairs, and maintenance for residential and commercial properties.',
-      items: ['Power supply installation', 'Electrical wiring', 'Circuit breakers', 'Lighting systems']
+      items: ['Power supply installation', 'Electrical wiring', 'Circuit breakers', 'Lighting systems', 'Power line maintenance', 'Transformer installation', 'Meter installation', 'Emergency response']
     },
     {
       icon: Wrench,
       title: 'General Contracting',
       description: 'Comprehensive contracting services for various infrastructure and maintenance projects.',
-      items: ['Bush clearing', 'Firewood supply to schools', 'Site preparation', 'Maintenance services']
+      items: ['Bush clearing', 'Firewood supply', 'Site preparation', 'Maintenance services']
     },
     {
       icon: Code2,
-      title: 'Web Development',
-      description: 'Modern, responsive websites and web applications for businesses and organizations.',
-      items: ['Business websites', 'E-commerce platforms', 'Progressive Web Apps', 'CMS integration']
-    },
-    {
-      icon: Network,
-      title: 'Network Solutions',
-      description: 'Professional networking and connectivity solutions for seamless operations.',
-      items: ['Network setup & configuration', 'WiFi installation', 'Network security', 'Cabling']
+      title: 'System Development',
+      description: 'Modern, optimized application/systems for businesses and organizations.',
+      items: ['Business websites', 'E-commerce platforms', 'Progressive Web Apps']
     },
     {
       icon: Lightbulb,
       title: 'IT Consulting',
       description: 'Strategic technology consulting to help your business grow and innovate.',
       items: ['IT infrastructure planning', 'Digital transformation', 'System integration', 'Tech support']
-    },
-    {
-      icon: Shield,
-      title: 'KPLC Contracting',
-      description: 'Authorized contractor for Kenya Power & Lighting Company projects.',
-      items: ['Power line maintenance', 'Transformer installation', 'Meter installation', 'Emergency response']
     }
   ];
 
